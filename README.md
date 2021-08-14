@@ -1,0 +1,1 @@
+this is a rough sketch for the structure of a solana project. it does nothing. 
