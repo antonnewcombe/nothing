@@ -1,0 +1,8 @@
+{"scripts": {
+
+    "build:sports": "cargo build-bpf --manifest-path=./Cargo.toml --bpf-out-dir=dist/program",
+    "clean:sports": "cargo clean --manifest-path=./Cargo.toml && rm -rf ./dist",
+    "test:sports": "cargo test-bpf --manifest-path=./Cargo.toml --bpf-out-dir=dist/program",
+    "test": "cargo test -- --nocapture"
+  }
+}
